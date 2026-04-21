@@ -1,0 +1,14 @@
+# A simple user configuration
+user_info:
+  name: "John Doe"          # String
+  age: 30                    # Integer
+  is_active: true            # Boolean
+
+hobbies:                     # A list (sequence)
+  - Reading
+  - Coding
+  - Cycling
+
+address:                     # Nested mapping (dictionary)
+  city: "New York"
+  zip_code: 10001
